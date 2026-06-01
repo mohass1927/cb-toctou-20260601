@@ -12,3 +12,5 @@ steps:
     echo "short=${SHORT_SHA:-}"
     git rev-parse HEAD || true
     git status --short || true
+options:
+  logging: CLOUD_LOGGING_ONLY
