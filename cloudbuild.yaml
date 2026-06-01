@@ -1,0 +1,14 @@
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  entrypoint: 'bash'
+  args:
+  - '-ceu'
+  - |
+    echo "fixture=cb-toctou-20260601"
+    echo "build_id=${BUILD_ID}"
+    echo "repo=${REPO_NAME}"
+    echo "branch=${BRANCH_NAME:-}"
+    echo "commit=${COMMIT_SHA:-}"
+    echo "short=${SHORT_SHA:-}"
+    git rev-parse HEAD || true
+    git status --short || true
