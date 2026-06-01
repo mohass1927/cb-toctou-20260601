@@ -1,4 +1,3 @@
 # Cloud Build TOCTOU Fixture
 
-Owned VRP fixture for Cloud Build pull-request trigger and comment-control testing.
-
+External contributor PR fixture created at 2026-06-01T08:28:40Z by mohass1927.
