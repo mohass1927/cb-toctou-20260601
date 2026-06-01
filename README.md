@@ -1,3 +1,3 @@
 # Cloud Build TOCTOU Fixture
 
-Collaborator stale-authority PR created at 2026-06-01T19:14:15Z by mohass1927.
+Post-collaborator-removal external update at 2026-06-01T19:16:37Z by mohass1927.
